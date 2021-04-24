@@ -1,3 +1,4 @@
+## Running the test by pulling an image. For this to work Jenkins should be running inside a container.
 node {
    def commit_id
    stage('Preparation') {
